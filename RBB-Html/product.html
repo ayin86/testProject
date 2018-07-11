@@ -161,12 +161,12 @@ $(function () {
 function floater(num){
 	var e=".floater-"+num;
 	$(".floater").append($(e)).addClass("floater-show");
-	$("html").addClass("html-floater-show");
+	//$("html").addClass("html-floater-show");
 }
 function close_floater(){
 	$(".floater .floater-content").appendTo($(".floater-pool"));
 	$(".floater").removeClass("floater-show");
-	$("html").removeClass("html-floater-show");
+	//$("html").removeClass("html-floater-show");
 }
 
 $(".btn-nav").on("click",function(){
