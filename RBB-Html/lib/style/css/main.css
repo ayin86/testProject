@@ -12759,6 +12759,15 @@ img {
     text-align: center;
     font-size: 1.8rem;
   }
+  .ui-top .ui-header .ui-nav li:hover {
+    color: #007fff;
+  }
+  .ui-top .ui-header .ui-nav li:hover a {
+    color: #007fff;
+  }
+  .ui-top .ui-header .ui-nav li:hover:before {
+    right: 0;
+  }
   .ui-top .ui-header .ui-nav li:before {
     display: none;
   }
