@@ -16,7 +16,6 @@ embed{display:none;}
 .lang-img{background-image: url(../images/country.png);}
 :focus {outline:none;}
 
-
 /*
 code by ayin86@163.com 
 css&js分别有1323种颜色
@@ -11705,6 +11704,12 @@ colors=["re","ro","or","oy","ye","yc","ch","cg","gr","ga","aq","ac","cy","cb","b
 .fix-c {
   transform: translateX(-50%) translateY(-50%);
 }
+.ui-scroll-less {
+  overflow: hidden;
+}
+.ui-scroll-less body {
+  overflow: hidden;
+}
 img {
   border-radius: 2px;
 }
@@ -12760,10 +12765,10 @@ img {
     font-size: 1.8rem;
   }
   .ui-top .ui-header .ui-nav li:hover {
-    color: #007fff;
+    color: #007fff !important;
   }
   .ui-top .ui-header .ui-nav li:hover a {
-    color: #007fff;
+    color: #007fff !important;
   }
   .ui-top .ui-header .ui-nav li:hover:before {
     right: 0;

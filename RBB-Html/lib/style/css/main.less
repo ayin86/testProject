@@ -38,6 +38,7 @@ colors=["re","ro","or","oy","ye","yc","ch","cg","gr","ga","aq","ac","cy","cb","b
     &::-moz-placeholder { color:@color; opacity:  1;}
     &:-ms-input-placeholder {  color:@color;}
 }
+.ui-scroll-less{overflow: hidden; body{overflow: hidden;}}
 //transform: translateY(-50%);
 //.badge-zz{background-color: #b699ce;}
 //.badge-vip{background-color: red;}
@@ -399,7 +400,7 @@ img{.bdr(2px);}
         .dropdown{top:35px; right:auto; left:10px;}
         .ui-nav{z-index: -1; visibility: hidden;position: fixed; width: 100%;opacity: 0; top:-100%; bottom:0; right:0; left:0; .ani; overflow: auto;
             li{display:block; width: 100%; line-height: 60px; text-align: center; font-size: 1.8rem;
-            &:hover{color:@bl;a{color:@bl;}
+            &:hover{color:@bl!important;a{color:@bl!important;}
                 &:before{right:0;}
             }
             &:before{display:none;}

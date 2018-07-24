@@ -415,8 +415,10 @@ function open_youtube(url,obj){
 
 $(".btn-nav").on("click",function(){
 	$(".ui-top").addClass("ui-top-shownav");
+	$("html").addClass("ui-scroll-less");
 });
 $(".ui-nav .close-nav").on("click",function(){
 	$(".ui-top").removeClass("ui-top-shownav");
+	$("html").removeClass("ui-scroll-less");
 });
 </script>
