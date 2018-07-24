@@ -12786,7 +12786,7 @@ img {
   .ui-top .ui-header .ui-nav li.close-nav {
     display: block!important;
     width: 40px;
-    position: absolute;
+    position: fixed;
     left: 20px;
     top: 30px;
     line-height: 0;
@@ -12805,7 +12805,7 @@ img {
     left: 0;
     visibility: visible;
     opacity: 1;
-    z-index: 12;
+    z-index: 99;
     background-color: #fff;
     margin: 0;
     padding-top: 30px;
@@ -12823,13 +12823,6 @@ img {
   }
   .ui-top .ui-header .ui-nav-wrapper {
     padding-top: 0;
-  }
-  .ui-top .ui-header .ui-nav-wrapper .ui-nav {
-    float: right;
-    line-height: 40px;
-    margin: 0;
-    display: inline-block;
-    width: 100%;
   }
   .block-02 .panel .panel-body {
     padding: 40px 20px;
