@@ -1,6 +1,5 @@
-@import "color.min.less";
+@import "color.less";
 @import "animate.less";
-@import "3rd/animate.css";
 /*
 chsname=["红","红橙","橙","橙黄","黄","黄草","草绿","草绿-绿","绿","绿-水绿","水绿","水绿-青","青","青蓝","蓝","蓝靛","靛","靛紫","紫","紫粉","粉","粉-洋红","洋红","洋红-红","灰"];
 engname=["red","red-orange","orange","orange-yellow","yellow","yellow-chartreuse","chartreuse","chartreuse-green","green","green-aquamarine","aquamarine","aquamarine-cyan","cyan","cyan-blue","blue","blue-indigo","indigo","indigo-purple","purple","purple-pink","pink","pink-violetred","violetred","violetred-red","gray"];
@@ -105,7 +104,7 @@ img{.bdr(2px);}
                 &.show{
                     .dropdown-toggle{background-color: @bi-l8;color:@bl-l7;}
                 }
-                .dropdown-toggle{.bg-tr; color:@bk; font-size: 1.2rem; .ani;
+                .dropdown-toggle{background-color:transparent; color:@bk; font-size: 1.2rem; .ani;
                     .lang-img{margin: 4px 5px 0 0;}
                     &:hover{background-color: @bi-l8; color:@wh;}
                 }
@@ -164,7 +163,7 @@ img{.bdr(2px);}
         }
     }
 }
-.ui-annc-hide{.block-01{margin-top: 80px;}}
+.ui-annc-hide{.main-wrapper{padding-top: 80px;}}
 .block-01{position: relative; 
     .content-wrapper{
         .carousel{
@@ -345,7 +344,7 @@ img{.bdr(2px);}
     iframe{width:768px; height:430px;}
 }
 
-.ui-footer{padding: 20px;background-color: fade(@gy-l1,50%);
+.ui-footer{padding: 20px;background-color: fade(@gy-l1,50%);border: 1px solid @gy-l2; border-top: none; border-bottom: none;
     .ui-limit{}
     .top{.fixfloat; border-bottom: 1px solid @bi-d7; line-height: 40px; color:@bk;font-size: 1.2rem;
         .copyright{float: left; }

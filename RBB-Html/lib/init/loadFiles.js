@@ -17,8 +17,8 @@ document.write(
 "<link rel='stylesheet' type='text/css' href='lib/3rd/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css'>"+
 //"<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.0.10/css/all.css' integrity='sha384-KwxQKNj2D0XKEW5O/Y6haRH39PE/xry8SAoLbpbCMraqlX7kUP6KHOnrlrtvuJLR' crossorigin='anonymous'>"+
 "<link rel='stylesheet' type='text/css' href='lib/style/css/main.css'>"+
-"<link rel='stylesheet/less' type='text/css' href='lib/style/css/main.less'/>"+
-"<script src='lib/3rd/less/less.js'></script>"+
+//"<link rel='stylesheet/less' type='text/css' href='lib/style/css/main.less'/>"+
+//"<script src='lib/3rd/less/less.js'></script>"+
 "<script src='lib/3rd/wow/wow.min.js'></script>"+
 /*
 
